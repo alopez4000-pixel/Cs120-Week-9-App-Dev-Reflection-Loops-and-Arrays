@@ -1,1 +1,3 @@
 # Cs120-Week-9-App-Dev-Reflection-Loops-and-Arrays
+Graded Requirement Locations:
+
