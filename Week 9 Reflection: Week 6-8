@@ -1,0 +1,71 @@
+# Week 9 Reflection: Weeks 6-8
+
+## Name
+
+Alexa Lopez
+
+## Project Or App Name
+
+MelodyOrganizer
+
+## Part 1: Development Process
+
+Describe how you moved from story or app idea into folders, files, documentation, JSON, and testing.
+
+  when I was first writing the story for the app I had many ideas on how the app was gonna look, 
+what the app was gonna work, etc.
+so when I did start creating the app I wanted to prioritize making playlist folders and miniplaylist folders.
+After many failed ideas and experimentation on the code itself and how well the app inerprets the code,
+how the application runs with alternate routes reguarding the main playlist, etc.
+I ended up settled on a somewhat simplistic procedure that can create A main folder and
+optional mini folders using an "if... then..." statement that creates minifiles if the user
+wants.
+with JSON I decided to use it to create a music review file where the user can add their reviews
+different songs and even rank them if they wanted to.
+
+## Part 2: Querying And Research
+List at least three things you searched, asked, watched, tested, or read.
+
+| Question or Need | Where I Looked | What I Learned | How I Used It |
+| How can I make the minifolderes      | google & previous VB.net projects | an "if... then.." statement can be used to tell the code the conditions that need to be met for it to create/not create something| to create a procedure that lets miniplaylits to be created if the user types "yes"|
+ only show up with a specific command?  
+| create minifolders  | week 6-7 video tutorial | i can create a separate procedeure that allows me to create minifolders | created a separate sub that creates minifolders within the main folder|
+|  |  |  |  |
+|  |  |  |  |
+
+## Part 3: Code Does Not Live Alone
+Explain how code connects to soft skills, hard skills, collaboration, machines, documentation, and communication.
+
+## Part 4: What I Would Change
+If you could redo Weeks 6-8, what would you organize, document, ask, test, or submit differently?
+
+## Part 5: Week 9 Coding Practice
+Explain both required coding pathways.
+
+### Pathway A: Text Starter Code
+Explain what the provided starter code does after you get it running in Visual Studio.
+
+- Array used:
+- Loop used to display choices:
+- Loop used to repeat the program:
+- Three choices I changed:
+
+### Pathway B: Video Tutorial
+Explain what you built by following the VB.NET loops video.
+
+- Project from the video:
+- Loop or loops used:
+- My small personal change:
+- Screenshot location:
+
+## Part 6: Git Submission Map
+Your root README must explain where the instructor can find every item you want graded.
+
+- Reflection location:
+- Query log location:
+- Pathway A text starter project location:
+- Pathway B video tutorial project location:
+- Screenshots location:
+- Discord proof location:
+- Assets or libraries location:
+- README location:
