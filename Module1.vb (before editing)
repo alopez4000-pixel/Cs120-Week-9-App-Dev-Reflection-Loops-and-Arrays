@@ -4,9 +4,9 @@ Module Week9LoopsAndArrays
 
     Sub Main()
         Dim storyChoices() As String = {
-            "Ask Discord for a clue",
-            "Read the documentation",
-            "Test the code again",
+            "Edit Main File",
+            "look at SongReview file",
+            "Update SongReview list",
             "Update the README"
         }
 
@@ -78,4 +78,3 @@ Module Week9LoopsAndArrays
     End Sub
 
 End Module
-
