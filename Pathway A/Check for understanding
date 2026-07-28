@@ -1,1 +1,24 @@
+  1. Arrays store a collection of items that are idenital in data.
+for this project the items that are being stores are the story choices that the user is
+going to be present with when the open the application.
+arrays are usually written within a curly bracket.
 
+  2. The Loops that displays the Menu Choices can be found under the "for... next" statement for 
+story choices.
+while the dim StroyChoices As String = {} gives the text for the menu choices, the text wouldnt be 
+visable without that statement.
+
+  3. The loop that keeps the program running is "Dim is KeepPlaying As Boolean = True", this is
+because without this procedure or if it was set to false then the application wouldnt be able to 
+function in any way and will immediety close
+
+  4. The loop that shows the session recap is the ShowHistory(chosen History).
+this command can be broken down into different smaller commands that tell the program
+that the previous selected choices will be added to a chosenHistory.Add() command that 
+will show the users session recap whenever they are finished using the application
+
+  5. The three Things I changed are:
+
+    "Ask Discord for a clue" to "Edit Main Playlist"
+    "Read the documentation" to "Look at SongReview list"
+    "Test the code again" to "update SongReview List"
