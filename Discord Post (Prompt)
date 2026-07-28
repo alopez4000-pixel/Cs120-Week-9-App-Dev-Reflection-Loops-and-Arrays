@@ -1,0 +1,28 @@
+Week 9 Progress Post
+
+App or practice name: MelodyOrganizer
+
+One thing I learned from Weeks 6-8: 
+i learned how to use JSon files and how to create different files within a main file
+
+One question I had to ask or search:
+"how can I have a seperate procedure activate whenever the user decides to create additional files"
+One source that helped me:
+previous lectures. from it I learned that "if... then.." statements can be used
+How code connects to people, machines, or documentation:
+code cnnects to machines because code is essentially brings the machine to life.
+My loops and arrays practice uses:
+- Array: Stores Informations
+- For...Next: Displays data
+- For Each: Reviews data
+- Do...Loop: Repeats
+
+Pathway A text starter project status: Completed, changed 3 menu options
+
+Pathway B video tutorial project status: Completed, changed the max amount of items
+
+Project link: https://github.com/alopez4000-pixel/Cs120-Week-9-App-Dev-Reflection-Loops-and-Arrays
+
+Root README location: Root Folder
+
+Screenshot proof included in repo:
