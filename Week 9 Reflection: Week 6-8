@@ -27,45 +27,79 @@ different songs and even rank them if they wanted to.
 List at least three things you searched, asked, watched, tested, or read.
 
 | Question or Need | Where I Looked | What I Learned | How I Used It |
-| How can I make the minifolderes      | google & previous VB.net projects | an "if... then.." statement can be used to tell the code the conditions that need to be met for it to create/not create something| to create a procedure that lets miniplaylits to be created if the user types "yes"|
+| How can I make the minifolderes    | google & previous VB.net projects | an "if... then.." statement can be used to tell the code the conditions that need to be met for it to create/not create something| to create a procedure that lets miniplaylits to be created if the user types "yes"|
  only show up with a specific command?  
 | create minifolders  | week 6-7 video tutorial | i can create a separate procedeure that allows me to create minifolders | created a separate sub that creates minifolders within the main folder|
-|  |  |  |  |
+| Create a song review folder | week 8 tutorial |  i can create a json file that stores information| created a json file that stored the information needed for a rate song file  |
 |  |  |  |  |
 
 ## Part 3: Code Does Not Live Alone
 Explain how code connects to soft skills, hard skills, collaboration, machines, documentation, and communication.
-
+to be able to code the user doesnt need to be an expert on everything but they need to have a decent understanding on 
+parts of the code to be able to create the application they so desire. Collaboration is also something that is 
+needed from time to time and oftentimes when coders work in groups it is required of them to share files that 
+accomidate the machines that each of the coder uses to be able to document and communicate what needs to be
+done and what needs to be made.
 ## Part 4: What I Would Change
 If you could redo Weeks 6-8, what would you organize, document, ask, test, or submit differently?
-
+i would probabaly have prioritized keeping a TODO list on my GIT to make it easier for me
+to keep track on what i need for this assignment.
 ## Part 5: Week 9 Coding Practice
 Explain both required coding pathways.
 
 ### Pathway A: Text Starter Code
 Explain what the provided starter code does after you get it running in Visual Studio.
 
-- Array used:
-- Loop used to display choices:
+- Array used: "  Dim storyChoices() As String = {
+      "Edit Main Playlist",
+      "look at SongReview list",
+      "Update SongReview list",
+      "Update the README"
+  }
+"
+- Loop used to display choices: 
+   " For index As Integer = 0 To storyChoices.Length - 1
+        Console.WriteLine($"{index + 1}. {storyChoices(index)}")
+    Next"
+
 - Loop used to repeat the program:
+f choiceNumber = 0 Then
+                    keepPlaying = False
+                ElseIf choiceNumber >= 1 AndAlso choiceNumber <= storyChoices.Length Then
+                    Dim selectedChoice As String = storyChoices(choiceNumber - 1)
+                    chosenHistory.Add(selectedChoice)
+
+                    Console.WriteLine()
+                    Console.WriteLine($"You chose: {selectedChoice}")
+                    Console.WriteLine("Press ENTER to return to the menu.")
+                    Console.ReadLine()
+                Else
+                    ShowInputError()
+                End If
+
 - Three choices I changed:
+ "Ask Discord for a clue" to "Edit Main Playlist"
+
+    "Read the documentation" to "Look at SongReview list"
+
+    "Test the code again" to "update SongReview List"
 
 ### Pathway B: Video Tutorial
 Explain what you built by following the VB.NET loops video.
 
-- Project from the video:
-- Loop or loops used:
-- My small personal change:
-- Screenshot location:
+- Project from the video: from the video i make a second version for SongReview
+- Loop or loops used: for loop
+- My small personal change: changed the max amount of items from 20 to 10
+- Screenshot location: Pathway B Folder
 
 ## Part 6: Git Submission Map
 Your root README must explain where the instructor can find every item you want graded.
 
-- Reflection location:
+- Reflection location: under Week 9 Redlection: week 6-8
 - Query log location:
-- Pathway A text starter project location:
-- Pathway B video tutorial project location:
-- Screenshots location:
-- Discord proof location:
-- Assets or libraries location:
-- README location:
+- Pathway A text starter project location: Pathway A folder
+- Pathway B video tutorial project location: Pathway B Folder
+- Screenshots location: Pathway A screenshots in Pathway A Folder
+- Discord proof location: Pathway B ScreenShots in Pathway B Folder
+- Assets or libraries location: in respected Folders
+- README location: in README.md
